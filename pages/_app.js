@@ -1,7 +1,6 @@
 import '../styles/global.css'
 import Header from '../components/header'
 import { Auth0Provider } from '@auth0/auth0-react'
-import { process } from 'next/dist/server/web/sandbox/polyfills'
 function MyApp({ Component, pageProps }) {
   return (
     <Auth0Provider
